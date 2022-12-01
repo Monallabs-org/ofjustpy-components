@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ofjustpy-components = {editable = true, path = "."}
+itsdangerous = "*"
+jinja2 = "*"
+hjson = "*"
+httpx = "*"
+psutil = "*"
+starlette = "*"
+uvicorn = "*"
+websockets = "*"
+aiofiles = "*"
+twine = "*"
+aenum = "*"
+dpath = "*"
+wtforms = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
